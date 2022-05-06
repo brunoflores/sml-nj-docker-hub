@@ -12,4 +12,5 @@ RUN wget http://smlnj.cs.uchicago.edu/dist/working/110.99.2/config.tgz && \
   config/install.sh
 
 FROM debian:bullseye
-COPY --from=0 /sml/bin /bin/
+COPY --from=0 /sml/bin /sml/bin/
+ENV PATH /sml/bin:$PATH
