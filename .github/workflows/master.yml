@@ -28,4 +28,3 @@ jobs:
           push: false
           tags: floresbruno/sml-nj-ci:latest
           cache-from: type=registry,ref=floresbruno/sml-nj-ci:buildcache
-          cache-to: type=registry,ref=floresbruno/sml-nj-ci:buildcache,mode=max
