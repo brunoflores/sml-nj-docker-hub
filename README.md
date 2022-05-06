@@ -1,2 +1,5 @@
-# sml-nj-docker-hub
-A Docker image for CI environments.
+# SML/NJ CI image
+
+A Docker image with SML/NJ for CI environments.
+
+https://hub.docker.com/r/floresbruno/sml-nj-ci
